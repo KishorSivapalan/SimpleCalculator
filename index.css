@@ -41,6 +41,8 @@ body {
 .screen {
   text-align: right;
   padding: 1em 0.5em;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .screen .previous-screen {
@@ -81,6 +83,14 @@ body {
   grid-column: span 2;
   height: 75px;
   width: 175px;
+}
+
+.buttonPanel #decimal-button {
+  background-color: var(--numberButtonColor);
+}
+
+.buttonPanel #equals-button {
+  background-color: var(--operatorButtonColor);
 }
 
 .buttonPanel .special {
